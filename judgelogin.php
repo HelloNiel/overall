@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Login As</title>
+	<link rel="icon" href="./img/logo.png" type="image/png">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 	<style>
 		body {
@@ -76,7 +77,7 @@
                     unset($_SESSION['error']);
                 }
             ?>
-            <form action="jdg_login_function.php" method="post">
+            <form action="judgelogin_function.php" method="post">
                 <label for="username">Username:</label>
                 <input type="text" name="username" id="username" required>
                 <label for="password">Password:</label>

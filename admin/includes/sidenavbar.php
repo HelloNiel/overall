@@ -5,62 +5,47 @@
             <div class="sb-nav-link-icon"><i class="fas fa-gauge-high"></i></div>
             <span class="nav-link-text">Dashboard</span>
         </a>
-        
-        <div class="sb-sidenav-menu-heading">Scoreboard</div>
-        <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseScoreboard" aria-expanded="false" aria-controls="collapseScoreboard">
-            <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
-            Talent Scoreboard
+
+        <div class="sb-sidenav-menu-heading">Scoring</div>
+        <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseVocalSolo" aria-expanded="false" aria-controls="collapseVocalSolo">
+            <div class="sb-nav-link-icon"><i class="fas fa-microphone"></i></div>
+            Vocal Solo
             <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
         </a>
-        <div class="collapse" id="collapseScoreboard" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
+        <div class="collapse" id="collapseVocalSolo" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
             <nav class="sb-sidenav-menu-nested nav">
-                <a class="nav-link" href="<?php echo "judge1.php"; ?>">Talent Judge 1</a>
-                <a class="nav-link" href="<?php echo "judge2.php"; ?>">Talent Judge 2</a>
-                <a class="nav-link" href="<?php echo "judge3.php"; ?>">Talent Judge 3</a>
-                <a class="nav-link" href="<?php echo "overall_score.php"; ?>">Overall Score</a>
+                <a class="nav-link" href="<?php echo "vocaljudge1.php"; ?>">Judge 1</a>
+                <a class="nav-link" href="<?php echo "vocaljudge2.php"; ?>">Judge 2</a>
+                <a class="nav-link" href="<?php echo "vocaljudge3.php"; ?>">Judge 3</a>
+                <a class="nav-link" href="<?php echo "vocaltotal.php"; ?>">Total score</a>
             </nav>
         </div>
 
-        <div class="sb-sidenav-menu-heading">Categories Score</div>
-        <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseCategories" aria-expanded="false" aria-controls="collapseCategories">
-            <div class="sb-nav-link-icon"><i class="fas fa-check-circle"></i></div>
-            Categories Score
+        <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseModernDance" aria-expanded="false" aria-controls="collapseModernDance">
+            <div class="sb-nav-link-icon"><i class="fas fa-music"></i></div>
+            Modern Dance
             <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
         </a>
-        <div class="collapse" id="collapseCategories" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
+        <div class="collapse" id="collapseModernDance" aria-labelledby="headingTwo" data-bs-parent="#sidenavAccordion">
             <nav class="sb-sidenav-menu-nested nav">
-                <a class="nav-link" href="<?php echo "unif_scores.php"; ?>">Uniform Score</a>
-                <a class="nav-link" href="<?php echo "swimwear_scores.php"; ?>">Swimwear Score</a>
-                <a class="nav-link" href="<?php echo "gown_barong_scores.php"; ?>">Gown/Barong Score</a>
-                <a class="nav-link" href="<?php echo "qna_scores.php"; ?>">Q & A Score</a>
-                <a class="nav-link" href="<?php echo "cat_total_scores.php"; ?>">Total Score</a>
+                <a class="nav-link" href="<?php echo "modernjudge1.php"; ?>">Judge 1</a>
+                <a class="nav-link" href="<?php echo "modernjudge2.php"; ?>">Judge 2</a>
+                <a class="nav-link" href="<?php echo "modernjudge3.php"; ?>">Judge 3</a>
+                <a class="nav-link" href="<?php echo "moderntotal.php"; ?>">Total score</a>
             </nav>
         </div>
 
-        <div class="sb-sidenav-menu-heading">Top Candidates</div>
-        <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseTopCandidates" aria-expanded="false" aria-controls="collapseTopCandidates">
-            <div class="sb-nav-link-icon"><i class="fas fa-star"></i></div>
-            Top 5 Candidates
+        <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseInterpretativeDance" aria-expanded="false" aria-controls="collapseInterpretativeDance">
+            <div class="sb-nav-link-icon"><i class="fas fa-theater-masks"></i></div>
+            Interpretative Dance
             <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
         </a>
-        <div class="collapse" id="collapseTopCandidates" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
+        <div class="collapse" id="collapseInterpretativeDance" aria-labelledby="headingTwo" data-bs-parent="#sidenavAccordion">
             <nav class="sb-sidenav-menu-nested nav">
-                <a class="nav-link" href="<?php echo "top5_list.php"; ?>">List of Top 5</a>
-                <a class="nav-link" href="<?php echo "top5_qna_scores.php"; ?>">Q & A Score</a>
-                <a class="nav-link" href="<?php echo "top5_total_scores.php"; ?>">Total Score</a>
-                <a class="nav-link" href="<?php echo "top5_finalists.php"; ?>">Top 5 Finalists</a>
-            </nav>
-        </div>
-
-        <div class="sb-sidenav-menu-heading">Top 3 Finalists</div>
-        <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseTop3Finalists" aria-expanded="false" aria-controls="collapseTop3Finalists">
-            <div class="sb-nav-link-icon"><i class="fas fa-trophy"></i></div>
-            Top 3 Finalists
-            <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
-        </a>
-        <div class="collapse" id="collapseTop3Finalists" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
-            <nav class="sb-sidenav-menu-nested nav">
-                <a class="nav-link" href="<?php echo 'top3_finalists.php'; ?>">List of Top 3 Finalists</a>
+                <a class="nav-link" href="<?php echo "interjudge1.php"; ?>">Judge 1</a>
+                <a class="nav-link" href="<?php echo "interjudge2.php"; ?>">Judge 2</a>
+                <a class="nav-link" href="<?php echo "interjudge3.php"; ?>">Judge 3</a>
+                <a class="nav-link" href="<?php echo "interpretativetotal.php"; ?>">Total Score</a>
             </nav>
         </div>
 
@@ -70,17 +55,18 @@
             Manage Candidates
             <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
         </a>
-        <div class="collapse" id="collapseStudents" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
+        <div class="collapse" id="collapseStudents" aria-labelledby="headingThree" data-bs-parent="#sidenavAccordion">
             <nav class="sb-sidenav-menu-nested nav">
-                <a class="nav-link" href="<?php echo "add_candidate.php"; ?>">Add Candidates</a>
-                <a class="nav-link" href="<?php echo "viewall.php"; ?>">View Candidates</a>
+                <a class="nav-link" href="<?php echo "addteam.php"; ?>">Add Team</a>
+                <a class="nav-link" href="<?php echo "viewteam.php"; ?>">View Team</a>
             </nav>
         </div>
-        <a class="nav-link" href="<?php echo "add_judge.php"; ?>"> 
+
+        <a class="nav-link" href="<?php echo "addjudge.php"; ?>"> 
             <div class="sb-nav-link-icon"><i class="fas fa-user"></i></div>
             Add Judge Account
         </a>
-        <a class="nav-link" href="<?php echo "add_admin.php"; ?>"> 
+        <a class="nav-link" href="<?php echo "addadmin.php"; ?>"> 
             <div class="sb-nav-link-icon"><i class="fas fa-user"></i></div>
             Add Admin Account
         </a>
@@ -89,4 +75,4 @@
 <div class="sb-sidenav-footer">
     <div class="small">Logged in as:</div>
     Administrator
-</div>
+</div> 

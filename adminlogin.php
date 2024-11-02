@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Login As</title>
+	<link rel="icon" href="./img/logo.png" type="image/png">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 	<style>
 		body {
@@ -13,12 +14,13 @@
             height: 100vh;
             display: flex;
             justify-content: center;
+            background: url('img/BACKGROUND.jpg') no-repeat center center fixed;
             align-items: center;
         }
 		
 		.login-container {
-			background-color: rgba(255, 255, 255, 0.8); /* White with 80% opacity */
-            padding: 30px; /* Increased padding to make the form slightly larger */
+			background-color: rgba(255, 255, 255, 0.8);
+            padding: 30px; 
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
             width: 100%;
@@ -63,7 +65,7 @@
 				<div class="login-container">
 					<img src="img/ptci.png" alt="Logo" class="logo">
 					<h2 class="text-center">Login</h2>
-					<form method="POST" action="admin_login_function.php">
+					<form method="POST" action="adminlogin_function.php">
 						<a><hr class="divider" /></a>
 						<div class="form-group">
 							<input type="text" name="username" class="form-control" placeholder="Username" required>
