@@ -62,12 +62,10 @@
 			<div class="col-md-6">
 				<div class="login-container">
 					<img src="img/logo.png" alt="Logo" class="logo">
-					<h2 class="text-center">Login As</h2>
+					<h2 class="text-center">Login</h2>
 					<form>
-                    <a><hr class="divider" /></a>
+                    <a><hr class="divider mb-4" /></a>
 						<a href="adminlogin.php" class="btn btn-primary btn-block">Admin</a>
-						<a href="judgelogin.php" class="btn btn-primary btn-block">Judge</a>
-						
 					</form>
 				</div>
 			</div>
